@@ -2,9 +2,11 @@
 
 Hello, 
 I've been assigned the DevOps task number 4 (Configure Firewalld using nftables on a linux VM).
-Setting up a firewalld using nftables in Linux involves several steps. Before proceeding. Here are the steps to set up firewalld with nftables:
+Setting up a firewalld using nftables in Linux involves several steps. Before proceeding. 
 
-**Firewalld** is a dynamic firewall management tool for Linux operating systems, designed to simplify the process of configuring and managing firewall rules. It is a front-end interface to the underlying firewall frameworks, such as iptables and nftables. It provides a higher-level abstraction that makes it easier for administrators to set up and maintain firewall rules without directly dealing with complex low-level configurations.
+**Firewalld** is a dynamic firewall management tool for Linux operating systems, designed to simplify the process of configuring and managing firewall rules. It is a front-end interface to the underlying firewall frameworks, such as iptables and nftables. It provides a higher-level abstraction that makes it easier for administrators to set up and maintain firewall rules without directly dealing with complex low-level configurations. 
+
+The steps to set up firewalld with nftables:
 
 1. First of all we need to install firewalld (if not already installed): 
 Using the package manager of your Linux distribution to install firewalld.
