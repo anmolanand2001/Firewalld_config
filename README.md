@@ -6,7 +6,7 @@ Setting up a firewalld using nftables in Linux involves several steps. Before pr
 
 **Firewalld** is a dynamic firewall management tool for Linux operating systems, designed to simplify the process of configuring and managing firewall rules. It is a front-end interface to the underlying firewall frameworks, such as iptables and nftables. It provides a higher-level abstraction that makes it easier for administrators to set up and maintain firewall rules without directly dealing with complex low-level configurations. 
 
-The steps to set up firewalld with nftables:
+The steps to set up firewalld with nftables on linux distribution are:
 
 1. First of all we need to install firewalld (if not already installed): 
 Using the package manager of your Linux distribution to install firewalld.
