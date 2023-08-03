@@ -8,7 +8,7 @@ The steps to set up firewalld with nftables on linux distribution are:
 1. First of all we need to install firewalld (if not already installed): 
 Using the package manager of your Linux distribution to install firewalld.
 ```bash
-sudo apt-get install firewall
+sudo apt-get install firewalld
 ```
 2. Starting and enabling the firewalld service:
 We can use the following commands to start the firewalld service and enable it to start automatically on boot:
