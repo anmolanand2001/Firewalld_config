@@ -62,7 +62,7 @@ sudo firewall-cmd --zone=trusted --add-service=ssh --permanent
 ```
 10. We also add ssh port no 22 to the zone for connection using:
 ```bash
-sudo firewall-cmd --zone=public --add-port=22/tcp --permanent
+sudo firewall-cmd --zone=trusted --add-port=22/tcp --permanent
 ```
 The --permanent option makes the rule persistent across reboots.
 
@@ -85,7 +85,7 @@ sudo firewalld-cmd --set-default-zone=public
 ```bash
 sudo firewall-cmd --zone=public --add-rich-rule='rule family="ipv4" protocol value="icmp" drop'
 ```
-15. We relaod and check for the ICMP connection by sending a ICMP ping
+15. We reload and check for the ICMP connection by sending a ICMP ping
 ```bash
 sudo firewall-cmd --reload
 ```
