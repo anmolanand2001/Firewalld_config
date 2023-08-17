@@ -1,4 +1,4 @@
-# Firewalld_Setup_&_Config
+# DevOps security Configuration: Firewalld_Setup_Linux
 
 
 **Firewalld** is a dynamic firewall management tool for Linux operating systems, designed to simplify the process of configuring and managing firewall rules. It is a front-end interface to the underlying firewall frameworks, such as iptables and nftables. It provides a higher-level abstraction that makes it easier for administrators to set up and maintain firewall rules without directly dealing with complex low-level configurations. 
